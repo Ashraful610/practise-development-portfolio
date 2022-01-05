@@ -1,3 +1,88 @@
+body{
+    font-family: 'Lora', serif;
+    margin: 0;
+}
+.frist-section{
+    display: flex;
+    margin-bottom: 80px;
+}
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+p{
+    font-size: 20px;
+    font-weight: bold;
+}
+h1{
+    font-size: 60px;
+    color: crimson;
+}
 h2{
-    color: brown;
+    font-size: 40px;
+}
+h3{
+    font-size: 20px;
+    color: rgb(172, 71, 255);
+}
+.color-change{
+    color: darkblue;
+}
+.link-button{
+  text-decoration: none;
+  background-image: linear-gradient(blue,cyan);
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  font-weight: 700;
+  font-size: 40px;
+    
+}
+.new{
+    padding: 5%;
+    width: 50%;
+}
+.new img{
+    width: 90%;
+}
+.second-button{
+    background-image: linear-gradient(blue, cyan);
+    font-size: 40px;
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.second-banner{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.full{
+    margin-right: 5%;
+    margin-left: 5%;
+    padding: 10px;
+    border-radius: 10px;
+    width: 40%;
+    box-shadow: 10px 10px 40px blue;
+}
+#stack{
+    border-left: 10px solid ;
+    border-image: linear-gradient(orange, red);
+    border-image-slice: 1;
+}
+#web{
+    border-left: 10px solid;
+    border-image: linear-gradient(pink,navy);
+    border-image-slice: 1;
+}
+.experences{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.gmail{
+    text-align: center;
+    font-size: 20px;
+    color: tomato;
 }
